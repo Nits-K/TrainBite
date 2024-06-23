@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between p-4 md:p-12 bg-slate-100 shadow-md relative z-10 flex-row-reverse md:flex-row">
       <img src="images/logo.png" alt="railkafe logo" className="h-10" />
-      <nav className={`fixed md:relative top-0 left-0 w-full h-3/4 md:h-auto bg-green-500 md:bg-transparent flex-col items-center justify-center gap-8 ${menuOpen ? 'flex' : 'hidden'} md:flex md:flex-row md:justify-end md:translate-x-0 md:transition-none transition-transform duration-200 transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+      <nav className={`fixed md:relative top-0 left-0 w-full h-3/4 md:h-auto bg-red-500 md:bg-transparent flex-col items-center justify-center gap-8 ${menuOpen ? 'flex' : 'hidden'} md:flex md:flex-row md:justify-end md:translate-x-0 md:transition-none transition-transform duration-200 transform ${menuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
         <button className="self-end mr-4 md:hidden" onClick={handleMenu}>
           <img src="images/close.png" alt="close" className="h-7 w-7" />
         </button>

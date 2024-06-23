@@ -31,3 +31,33 @@ body {
     text-wrap: balance;
   }
 }
+@keyframes scroll {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+.scroll-container {
+  width: 90%;
+  max-width: 640px; /* Adjust the width as needed */
+  height: 240px; /* Adjust the height as needed */
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.scroll-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  animation: scroll 7s linear infinite;
+}
+
+.scroll-item {
+  padding: 10px 20px;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
