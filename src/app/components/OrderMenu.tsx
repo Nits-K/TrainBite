@@ -8,20 +8,20 @@ const OrderMenu = () => {
               Order Food in Train at Zero Booking Fee
             </span>
             <p className="mt-2 text-[14px] text-left">
-              Order palatable food in trains via Railkafe and get on-seat
+              Order palatable food in trains via Train Bite and get on-seat
               delivery directly from FSSAI approved restaurants across India.
-              Forget about eating pantry food or station meals, Railkafe is here
-              to deliver tasty food in train. With Railkafe, you can book
+              Forget about eating pantry food or station meals, Train Bite is here
+              to deliver tasty food in train. With Train Bite, you can book
               healthy and hygienic meals online and get it delivered directly to
               your train seat without having to worry about their availability
-              or delivery process. You can order directly via RailKafe’s
+              or delivery process. You can order directly via Train Bite’s
               website, android app, or its toll-free food ordering number,
               available for you 24/7.
             </p>
           </div>
           <div className="text-[#737373] w-full mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
-              How to Order Food in Train with RailKafe?
+              How to Order Food in Train with Train Bite?
             </span>
             <p className="mt-2 text-[14px] text-left">
               Simply enter your 10-digit PNR number or train name or train
@@ -32,8 +32,8 @@ const OrderMenu = () => {
             <p className="mt-2 text-[14px] text-left">
               Did you ever wish that apps like Swiggy and Zomato could deliver
               food on train? Wait no more. Ordering tasty food on your train
-              journeys is super simple with RailKafe. It’s as easy, quick, and
-              feasible as ordering on Swiggy or Zomato. RailKafe is the easiest
+              journeys is super simple with Train Bite. It’s as easy, quick, and
+              feasible as ordering on Swiggy or Zomato. Train Bite is the easiest
               way to enjoy home-like food on your travels.
             </p>
           </div>
@@ -46,7 +46,7 @@ const OrderMenu = () => {
               number in the top left corner.
             </span>
             <span className="text-[14px] text-left ">
-              2. Go to the RailKafe website or download our app.
+              2. Go to the Train Bite website or download our app.
             </span>
             <span className="text-[14px] text-left ">
               3. Fill in your 10-digit PNR number or your train number in the
@@ -82,19 +82,19 @@ const OrderMenu = () => {
               for 2, 3, or more days? Well, the wait is over.
             </p>
             <p className="mt-2 text-[14px] text-left">
-              Yes, with RailKafe, you can order food in train and savor the rich
-              tastes of your favorite restaurant meals. Just go to the RailKafe
+              Yes, with Train Bite, you can order food in train and savor the rich
+              tastes of your favorite restaurant meals. Just go to the Train Bite
               website or mobile app, or call us directly via our toll-free
               number +91 9771231434 and order directly from restaurants.
             </p>
           </div>
           <div className="text-[#737373] w-full mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
-              How Would You Get Food on Train with Railkafe?
+              How Would You Get Food on Train with Train Bite?
             </span>
             <div className="flex flex-col gap-2 mt-2">
               <span className="text-[14px] text-left">
-                With Railkafe Getting your food delivered to your train seat is
+                With Train Bite Getting your food delivered to your train seat is
                 now easier than ever. There are three ways to order food in
                 train:
               </span>
@@ -129,14 +129,14 @@ const OrderMenu = () => {
             <p className="mt-2 text-[14px] text-left">
               It is one thing to get “meals” on train and it is a completely
               different thing to get proper “Restaurant Meals” on train. To
-              fulfill this need of yours, RailKafe has partnered with 3000+
+              fulfill this need of yours, Train Bite has partnered with 3000+
               verified and FSSAI certified restaurants across India to supply
               you with the best quality food on train.These restaurants operate
               in a clean &amp; hygienic environment and comply with the
               regulative standards set by the government agencies like FSSAI.
             </p>
             <p className="mt-2 text-[14px] text-left">
-              With RailKafe, you can rest assured of receiving the best quality
+              With Train Bite, you can rest assured of receiving the best quality
               food on train. Simply head to the app/ website and explore the
               lists of restaurants available for your train without getting
               tensed about the food quality and hygiene.
@@ -147,14 +147,14 @@ const OrderMenu = () => {
               Delivering Food to 7500+ Trains across India
             </span>
             <p className="mt-2 text-[14px] text-left">
-              RailKafe delivers its high-quality food to more than 7500 trains
+              Train Bite delivers its high-quality food to more than 7500 trains
               in India without fail. Some of the popular trains we cater to
               include: Gatimaan Express, Himalayan Queen, Shatabdi Express,
               Rajdhani Express, Deccan Odyssey, Howrah-Delhi Rajdhani Express,
               Lucknow Mail and others.
             </p>
             <p className="mt-2 text-[14px] text-left">
-              You do not need any pantry pass to order food with Railkafe. You
+              You do not need any pantry pass to order food with Train Bite. You
               can also book your meals in advance and receive your meals once
               you embark on your journey.
             </p>
@@ -171,7 +171,7 @@ const OrderMenu = () => {
               hygiene and a contactless approach.
             </p>
             <p className="mt-2 text-[14px] text-left">
-              RailKafe prioritizes the quality and safety of food for its
+              Train Bite prioritizes the quality and safety of food for its
               customers to ensure that they can order their train food online
               without worrying about anything. Unlike the other platforms, our
               delivery partners follow the safety guidelines and ensure that
@@ -183,9 +183,9 @@ const OrderMenu = () => {
               Ordering Local Cuisines on Train
             </span>
             <p className="mt-2 text-[14px] text-left">
-              With RailKafe, the food options are not limited to everyday meals.
+              With Train Bite, the food options are not limited to everyday meals.
               You can order your favorite cuisines on train without having to
-              worry about their availability. RailKafe offers its customers a
+              worry about their availability. Train Bite offers its customers a
               variety of food options which includes:
             </p>
             <div>
@@ -203,7 +203,7 @@ const OrderMenu = () => {
                   collection of Southern dishes and curries. Enjoy the tastes of
                   crispy Dosas, fluffy Idlis, and tangy sambar that will for
                   sure leave an everlasting impact on your train memories. Enjoy
-                  the true taste of South India with RailKafe’s South Indian
+                  the true taste of South India with Train Bite’s South Indian
                   dishes.
                 </li>
                 <li className="text-left text-[14px]">
@@ -223,7 +223,7 @@ const OrderMenu = () => {
                   French onion soup and the savory German sausages. Our menu
                   offers a diverse list of flavors and textures. From the
                   British charm of fish and chips to the true taste of Italian
-                  risotto. Each dish offered by RailKafe showcases the best of
+                  risotto. Each dish offered by Train Bite showcases the best of
                   European tastes with a touch of our creativity.
                 </li>
                 <li className="text-left text-[14px]">
@@ -238,13 +238,13 @@ const OrderMenu = () => {
           </div>
           <div className="text-[#737373] w-full mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
-              Popular Food Options Available on RailKafe for Online Food order
+              Popular Food Options Available on Train Bite for Online Food order
               in Train
             </span>
             <p className="mt-2 text-[14px] text-left">
-              With Raikafe, you have access to the world of delicious meals.
+              With Train Bite, you have access to the world of delicious meals.
               Here are some categories of food you can order on train with
-              Railkafe:
+              Train Bite:
             </p>
             <span className="font-sans font-semibold flex  justify-start text-[16px] text-left">
               Pure Veg Food in Train
@@ -279,13 +279,13 @@ const OrderMenu = () => {
               Pure Jain food on train
             </span>
             <p className="mt-2 text-[14px] text-left">
-              RailKafe has also partnered with many restaurants across India
+              Train Bite has also partnered with many restaurants across India
               that serve pure Jain food to their customers. These meals are
               prepared with Jain-approved ingredients and masalas. The chefs put
               utmost care and dedication into the eaters.
             </p>
             <span className="font-sans font-semibold flex  justify-start text-[16px] text-left">
-              Jain food delivery in Train by Railkafe:
+              Jain food delivery in Train by Train Bite:
             </span>
             <div>
               <ol className="list-decimal flex flex-col gap-2 mt-2">
@@ -312,7 +312,7 @@ const OrderMenu = () => {
                   Non-veg food in train we offer:{" "}
                 </strong>{" "}
                 We also serve non-veg food for our non-veg loving customers. The
-                Non-Veg Food delivery in Train by Railkafe are listed below:
+                Non-Veg Food delivery in Train by Train Bite are listed below:
               </span>
               <div>
                 <ol className="list-decimal flex flex-col gap-2 mt-2">
@@ -371,10 +371,10 @@ const OrderMenu = () => {
             </div>
             <div>
               <span className="font-sans font-semibold flex  justify-start text-[18px] text-left">
-                Benefits of Ordering Food on Train with RailKafe
+                Benefits of Ordering Food on Train with Train Bite
               </span>
               <span className="text-left text-[14px]">
-                Ordering food via e-catering platform like RailKafe comes with
+                Ordering food via e-catering platform like Train Bite comes with
                 many benefits as compared to the traditional platforms. Here are
                 some important ones to consider:
               </span>
@@ -395,7 +395,7 @@ const OrderMenu = () => {
                     phone and get your food delivered at your train seat
                   </li>
                   <li className="text-left text-[14px]">
-                    Hygiene and Quality: By ordering from RailKafe, you can rest
+                    Hygiene and Quality: By ordering from Train Bite, you can rest
                     assured that you will receive high-quality food.
                   </li>
                   <li className="text-left text-[14px]">
@@ -405,12 +405,12 @@ const OrderMenu = () => {
                   </li>
                   <li className="text-left text-[14px]">
                     Reviews and feedback: It isn’t blind faith when you order
-                    via Railkafe—access customer reviews and feedback on food
+                    via Train Bite—access customer reviews and feedback on food
                     quality and restaurants before deciding on your next meal.
                   </li>
                   <li className="text-left text-[14px]">
                     Cashless Transactions: Enjoy the options for contactless
-                    payments. RailKafe accepts payments from all digital
+                    payments. Train Bite accepts payments from all digital
                     gateways, credit/debit cards, and UPI.
                   </li>
                 </ol>
@@ -418,19 +418,19 @@ const OrderMenu = () => {
             </div>
             <div>
               <span className="font-sans font-semibold flex  justify-start text-[18px] text-left">
-                Why is RailKafe the best option for online food order in train?
+                Why is Train Bite the best option for online food order in train?
               </span>
               <span className="text-left text-[14px]">
                 When traveling long distances, we are often forced to eat
                 tasteless local vendor’s food or unhygienic food from vendors.
                 In many cases, these foods are either tasteless, contaminated,
                 or delayed. We gives you freedom from eating such food at the
-                risk of your health. Railkafe offers a simple and cost-effective
+                risk of your health. Train Bite offers a simple and cost-effective
                 platform for ordering healthy and hygienic food for you and your
                 family.
               </span>
               <span className="text-left text-[14px]">
-                RailKafe is the best option for ordering food on the train
+                Train Bite is the best option for ordering food on the train
                 because of the following reasons:
               </span>
               <div>
@@ -465,10 +465,10 @@ const OrderMenu = () => {
             </div>
             <div>
               <span className="font-sans font-semibold flex  justify-start text-[18px] text-left">
-                Download RailKafe for Online Food Delivery Services on Trains
+                Download Train Bite for Online Food Delivery Services on Trains
               </span>
               <span className="text-left text-[14px]">
-                RailKafe is the best app for ordering IRCTC food on train. It is
+                Train Bite is the best app for ordering IRCTC food on train. It is
                 a simple and easy-to-use app with hundreds of restaurants and
                 thousands of meal options to choose from. It is easier, quicker,
                 and more reliable than any other food delivery service available
@@ -483,7 +483,7 @@ const OrderMenu = () => {
                     Go to the Play store (or app store in ios)
                   </li>
                   <li className="text-left text-[14px]">
-                    Search “RailKafe” in the search tap
+                    Search “Train Bite” in the search tap
                   </li>
                   <li className="text-left text-[14px]">
                     Select the first option and hit download to get
@@ -496,14 +496,14 @@ const OrderMenu = () => {
             </div>
             <div>
               <span className="font-sans font-semibold flex  justify-start text-[18px] text-left">
-                About RailKafe
+                About Train Bite
               </span>
               <span className="text-left text-[14px]">
-                RailKafe is India’s leading e-catering platform that frees you
+                Train Bite is India’s leading e-catering platform that frees you
                 from the worries of arranging high-quality and hygienic food in
                 train. It offers a wide range of delicious meals ranging from
                 North Indian, South Indian, Chinese, Continental, Italian, and
-                Other meal options. Railkafe ensures that you and your family
+                Other meal options. Train Bite ensures that you and your family
                 and friends receive mouthwatering, hygienic food without
                 settling for contaminated station food.
               </span>
@@ -514,7 +514,7 @@ const OrderMenu = () => {
                 travelers traveling by train.
               </span>
               <span className="text-left text-[14px]">
-                RailKafe offers its services via three mediums: RailKafe’s
+                Train Bite offers its services via three mediums: Train Bite’s
                 Android/ios app, website, and toll-free number +91 9771231434.
                 The user only need PNR number or Train Number to order their
                 preferred meals directly to his seat.
