@@ -33,7 +33,7 @@ export default function Home() {
         <div className="bg-slate-100 rounded-lg max-w-2xl p-1 py-6 mt-8 flex flex-col items-center w-full shadow-lg mx-auto">
   <div className="bg-red-500 rounded-full p-1 py-1.5 flex justify-around w-full mb-8">
     <button
-      className={`flex items-center px-3 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+      className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
         searchType === "PNR"
           ? "bg-white text-red-500"
           : "bg-red-500 text-white"
@@ -44,7 +44,7 @@ export default function Home() {
       Search By PNR
     </button>
     <button
-      className={`flex items-center px-3 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+      className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
         searchType === "Train"
           ? "bg-white text-red-500"
           : "bg-red-500 text-white"
@@ -55,7 +55,7 @@ export default function Home() {
       Search By Train
     </button>
     <button
-      className={`flex items-center px-3 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+      className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
         searchType === "WhatsApp"
           ? "bg-white text-red-500"
           : "bg-red-500 text-white"
