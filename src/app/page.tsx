@@ -29,49 +29,49 @@ export default function Home() {
           src="images/banner2.jpg"
           alt="banner"
         />
-        {/* <div className="w-full items-center flex flex-col justify-center text-center h-96 bg-red-100 ">
-          <h1 className="text-gray-700 text-4xl font-bold hover:text-red-400">Order Delicious food from your favorite Restaurent</h1>
-        </div> */}
         <h1 className="text-gray-700 text-5xl mt-16 font-bold text-center">Order Food on Train Online</h1>
-        <div className="bg-slate-100 rounded-lg max-w-2xl p-8 mt-8 flex flex-col items-center w-full  shadow-lg">
-      <div className="bg-red-500 rounded-full p-1 flex  justify-between w-full mb-8">
-      <button
-    className={`flex items-center px-6 py-3 text-xs sm:text-base rounded-full transition-colors ${
-      searchType === "PNR"
-        ? "bg-white text-red-500"
-        : "bg-red-500 text-white"
-    } hover:bg-white hover:text-red-500`}
-    onClick={() => handleButtonClick("PNR")}
-  >
-    <FaSearch className="h-5 w-5 mr-2" />
-    Search By PNR
-  </button>
-        <button
-    className={`flex items-center px-6 py-3 text-xs sm:text-base rounded-full transition-colors ${
-      searchType === "Train"
-        ? "bg-white text-red-500"
-        : "bg-red-500 text-white"
-    } hover:bg-white hover:text-red-500`}
-    onClick={() => handleButtonClick("Train")}
-  >
-    <FaTrain className="h-6 w-6 mr-2" />
-    Search By Train
-  </button>
-        <button
-  className={`flex items-center px-6 py-3 text-xs sm:text-base rounded-full transition-colors ${
-    searchType === "WhatsApp"
-      ? "bg-white text-red-500"
-      : "bg-red-500 text-white"
-  } hover:bg-white hover:text-red-500`}
-  onClick={() => handleButtonClick("WhatsApp")}
->
-  <img
-    src="images/whatsapp.png"
-    alt="WhatsApp"
-    className="h-6 w-6 mr-2"
-  /> 
-  WhatsApp
-</button>
+        <div className="bg-slate-100 rounded-lg max-w-2xl p-1 mt-8 flex flex-col items-center w-full shadow-lg mx-auto">
+  <div className="bg-red-500 rounded-full p-1 flex justify-around w-full mb-8">
+    <button
+      className={`flex items-center px-3 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+        searchType === "PNR"
+          ? "bg-white text-red-500"
+          : "bg-red-500 text-white"
+      } hover:bg-white hover:text-red-500`}
+      onClick={() => handleButtonClick("PNR")}
+    >
+      <FaSearch className="h-5 w-5 mr-2" />
+      Search By PNR
+    </button>
+    <button
+      className={`flex items-center px-3 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+        searchType === "Train"
+          ? "bg-white text-red-500"
+          : "bg-red-500 text-white"
+      } hover:bg-white hover:text-red-500`}
+      onClick={() => handleButtonClick("Train")}
+    >
+      <FaTrain className="h-5 w-5 mr-2" />
+      Search By Train
+    </button>
+    <button
+      className={`flex items-center px-3 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+        searchType === "WhatsApp"
+          ? "bg-white text-red-500"
+          : "bg-red-500 text-white"
+      } hover:bg-white hover:text-red-500`}
+      onClick={() => handleButtonClick("WhatsApp")}
+    >
+      <img
+        src="images/whatsapp.png"
+        alt="WhatsApp"
+        className="h-5 w-5 mr-1"
+      />
+      WhatsApp
+    </button>
+  
+
+
 
       </div>
       {searchType !== "WhatsApp" ? (
