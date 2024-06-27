@@ -1,35 +1,41 @@
 import { FaHome, FaUsers, FaClipboardList, FaComments, FaUtensils, FaTrain } from "react-icons/fa";
 import React, { useEffect } from 'react';
 import "@/app/styles/navbar.css"
-export default function Navbar() {
 
-    document.addEventListener("click", (e:any)=>{
+export default function Navbar() {
+  useEffect(() => {
+    const handleClick = (e:any) => {
       let el;
       
-      if(e.target.nodeName === "path") {        
+      if (e.target.nodeName === "path") {
         el = e.target.parentElement.parentElement;
+      } else if (e.target.nodeName === "svg" || e.target.nodeName === "SPAN") {
+        el = e.target.parentElement;
+      } else if (e.target.nodeName === "P") {
+        el = e.target;
       }
-      else if(e.target.nodeName === "svg" || e.target.nodeName ==="SPAN") {
 
-        el=e.target.parentElement;
-        
-      }
-      else if(e.target.nodeName ==="P") {
-        el=e.target;
-      }
-      
-      
       if (el && el.classList.length) {
         if (el.classList.contains("nav-link") && !el.classList.contains("active")) {
-          document.getElementsByClassName("active")[0].classList.remove("active");
+          const activeElement = document.querySelector(".active");
+          if (activeElement) {
+            activeElement.classList.remove("active");
+          }
           el.classList.add("active");
         }
-    }
-  });
-  
+      }
+    };
+
+    document.addEventListener("click", handleClick);
+
+    return () => {
+      document.removeEventListener("click", handleClick);
+    };
+  }, []);
+
   return (
-    <nav className={`${window.innerWidth <= 640 ? "rect " : ""}fixed sm:border-r-black sm:border-r sm:space-y-8 sm:flex-col sm:w-16 sm:h-full sm:py-4 sm:top-0   bg-red-600 sm:shadow-lg z-10 `}>
-      <p  className="nav-link active text-white flex flex-col items-center transform transition-transform duration-100 hover:scale-125  ">
+    <nav className={`${window.innerWidth <= 640 ? "rect " : ""}fixed sm:border-r-black sm:border-r sm:space-y-8 sm:flex-col sm:w-16 sm:h-full sm:py-4 sm:top-0 bg-red-500 sm:shadow-lg z-10`}>
+      <p className="nav-link active text-white flex flex-col items-center transform transition-transform duration-100 hover:scale-125">
         <FaHome size={24} />
         <span className="text-xs mt-1">Home</span>
       </p>
@@ -43,7 +49,7 @@ export default function Navbar() {
       </p>
       <p className="nav-link text-white flex flex-col items-center transform transition-transform duration-300 hover:scale-125">
         <FaTrain size={24} />
-        <span className="text-xs text-center mt-1"> Tools</span>
+        <span className="text-xs text-center mt-1">Tools</span>
       </p>
       <p className="nav-link text-white flex flex-col items-center transform transition-transform duration-300 hover:scale-125">
         <FaComments size={24} />
