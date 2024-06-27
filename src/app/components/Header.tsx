@@ -11,7 +11,7 @@ const Header = () => {
 
       
       <button className="block md:hidden hover:border-2" onClick={()=>{setMenuOpen(!menuOpen)}}>
-        <img src="/images/menu.png" alt="menu" className="h-6 w-6 " />
+        <img src="/images/menu.png" alt="menu" className="h-6 w-6" />
       </button>
 
       <nav className={`absolute border-t mt-20 top-0 left-0 w-full py-8  bg-white flex flex-col items-center justify-flex gap-8 md:hidden ${menuOpen ? 'flex' : 'hidden'}`}>
