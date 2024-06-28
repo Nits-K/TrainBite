@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
     <>
-      <footer className="bg-white  py-8 px-4 w-full text-xl text-red-500">
-        <div className="grid w-full gap-8 md:grid-cols-4">
+      <footer className="bg-white  py-8 px-4 w-full text-xl text-red-500 pb-24">
+        <div className="grid w-full gap-8 md:grid-cols-4 ">
           <div className="flex flex-col items-start">
             <h4 className="font-bold">Company</h4>
             <a
@@ -197,7 +197,7 @@ const Footer = () => {
                 fill="currentColor"
                 strokeWidth="0"
                 viewBox="0 0 384 512"
-                className="mr-2"
+                className="mr-2 "
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg"
