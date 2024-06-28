@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Train Bite",
-  description: "Online Food ",
+  description: "Online Food Ordering website",
 };
 
 export default function RootLayout({ children }) {
