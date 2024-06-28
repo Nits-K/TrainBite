@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "name":"Priyanshi patwa",
+        "train":"Bal Express",
+        "station":"Jaunpur"
+    },
+    {
+        "id":2,
+        "name":"Nitish Kumar",
+        "train":"Nirbal Express",
+        "station":"Kanpur Central"
+    },
+    {
+        "id":3,
+        "name":"Mohit Singh",
+        "train":"Bagh Express",
+        "station":"Kanaur Central"
+    },
+    {
+        "id":4,
+        "name":"Nihali Kumari",
+        "train":"Aamrapali Express",
+        "station":"Basti"
+    },
+    {
+        "id":5,
+        "name":"Nitish Kumar",
+        "train":"Gangadhar Superfast",
+        "station":"New Delhi "
+    },
+    {
+        "id":6,
+        "name":"Muhammed Kumar",
+        "train":"Mannat Express",
+        "station":"Varanasi Junction"
+    }
+]
