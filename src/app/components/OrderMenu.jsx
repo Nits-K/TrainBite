@@ -1,9 +1,9 @@
 const OrderMenu = () => {
   return (
     <>
-      <div className="text-left w-full">
-        <div className="px-2 sm:px-0 w-full font-sans mt-4 mb-5">
-          <div className="text-[#737373] w-full">
+      <div className="text-left w-full overflow-hidden ">
+        <div className="px-16 bg-white rounded-2xl font-sans py-8 mt-4 mb-5">
+          <div className="text-black">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               Order Food in Train at Zero Booking Fee
             </span>
@@ -19,7 +19,7 @@ const OrderMenu = () => {
               available for you 24/7.
             </p>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               How to Order Food in Train with Train Bite?
             </span>
@@ -37,7 +37,7 @@ const OrderMenu = () => {
               way to enjoy home-like food on your travels.
             </p>
           </div>
-          <div className="text-[#737373] w-full mt-2 flex flex-col gap-2">
+          <div className="text-black mt-2 flex flex-col gap-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               To order food in Train, follow these steps:
             </span>
@@ -72,7 +72,7 @@ const OrderMenu = () => {
               8. Enjoy your veg/non-veg/Jain food on your train seat.
             </span>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               Is It Possible To Order Food in Train?
             </span>
@@ -88,7 +88,7 @@ const OrderMenu = () => {
               number +91 9771231434 and order directly from restaurants.
             </p>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               How Would You Get Food on Train with Train Bite?
             </span>
@@ -122,7 +122,7 @@ const OrderMenu = () => {
               </span>
             </div>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               Order Food on Train from 3000+ Trusted Restaurants in India
             </span>
@@ -142,7 +142,7 @@ const OrderMenu = () => {
               tensed about the food quality and hygiene.
             </p>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               Delivering Food to 7500+ Trains across India
             </span>
@@ -159,7 +159,7 @@ const OrderMenu = () => {
               you embark on your journey.
             </p>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               Clean and Hygienic Food Directly To Your Train Seat with
               Contactless Delivery
@@ -178,7 +178,7 @@ const OrderMenu = () => {
               your food remains contamination free and hygienic.
             </p>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               Ordering Local Cuisines on Train
             </span>
@@ -236,7 +236,7 @@ const OrderMenu = () => {
               </ol>
             </div>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               Popular Food Options Available on Train Bite for Online Food order
               in Train
@@ -274,7 +274,7 @@ const OrderMenu = () => {
               </ol>
             </div>
           </div>
-          <div className="text-[#737373] w-full mt-2">
+          <div className="text-black  mt-2">
             <span className="font-sans font-semibold flex  justify-start text-[18px] text-left ">
               Pure Jain food on train
             </span>
