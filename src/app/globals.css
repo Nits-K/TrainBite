@@ -33,21 +33,24 @@ body {
 }
 
 @keyframes scroll {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-100%); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
 
 .scroll-container {
   width: 100%;
-  max-width: 720px; 
-  height: 320px; 
- 
+  max-width: 720px;
+  height: 320px;
+
   position: relative;
-  background: linear-gradient(60deg, black, #333333);
+  background: linear-gradient(180deg, black, #333333);
 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  margin-top: 20px;
 }
 
 .scroll-content {
@@ -55,12 +58,19 @@ body {
   flex-direction: column;
   position: absolute;
   animation: scroll 7s linear infinite;
-  
 }
 
 .scroll-item {
   padding: 10px 20px;
   font-size: 1rem;
-  
 }
-
+nav ul li{
+  cursor: pointer;
+}
+footer a{
+  opacity: 0.8;
+  font-weight: 500;
+}
+footer a:hover{
+  opacity:1;
+}

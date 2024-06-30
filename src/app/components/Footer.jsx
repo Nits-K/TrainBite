@@ -1,54 +1,54 @@
 const Footer = () => {
   return (
     <>
-      <footer className=" bg-gradient-to-l from-black to-gold   py-8 px-4 w-full text-xl text-white pb-24">
+      <footer className=" bg-white  py-8 px-4 w-full text-xl text-gold pb-24">
         <div className="grid w-full gap-8 md:grid-cols-4 ">
           <div className="flex flex-col items-start">
             <h4 className="font-bold">Company</h4>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-opacity-80 text-sm mt-2 no-underline"
               href="/about-railkafe"
             >
               About Us
             </a>
             <a
-              className="text-gray-700 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/term-condition"
             >
               Terms & Conditions
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/privacy-policy"
             >
               Privacy Policy
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/cancellation-policy"
             >
               Cancellation & Refund Policy
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/shipping-policy"
             >
               Shipping Policy
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/quality-assurance"
             >
               Quality Assurance
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/disclaimer"
             >
               Disclaimer
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/sitemap"
             >
               Sitemap
@@ -57,43 +57,43 @@ const Footer = () => {
           <div className="flex flex-col items-start">
             <h4 className="font-bold">Help & Support</h4>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/"
             >
               Track Order
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/offer"
             >
               Offers
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/"
             >
               Callback Request
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/"
             >
               Cancellation Request
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/feedback"
             >
               Feedback/Complaint
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/contactus"
             >
               Contact
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/"
             >
               Become A Partner
@@ -102,31 +102,31 @@ const Footer = () => {
           <div className="flex flex-col items-start">
             <h4 className="font-bold">Other Links</h4>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/"
             >
               Customer Reviews
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/pure-veg-food-in-train"
             >
               Pure Veg Food
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/non-veg-food-delivery-in-train"
             >
               Non Veg Food
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/jain-food-in-train"
             >
               Jain Food
             </a>
             <a
-              className="text-gray-200 text-sm mt-2 no-underline"
+              className="text-black text-sm mt-2 no-underline"
               href="/"
             >
               Train Bite Blog
@@ -136,7 +136,7 @@ const Footer = () => {
             <h4 className="font-bold">Connect with us</h4>
             <a
               href="https://www.facebook.com/people/Rail-Kafe/100092477826268/?mibextid=ZbWKwL"
-              className="text-gray-200 text-sm mt-2 no-underline flex items-center"
+              className="text-black text-sm mt-2 no-underline flex items-center"
             >
               <svg
                 stroke="currentColor"
@@ -154,7 +154,7 @@ const Footer = () => {
             </a>
             <a
               href="https://twitter.com/RailKafe"
-              className="text-gray-200 text-sm mt-2 no-underline flex items-center"
+              className="text-black text-sm mt-2 no-underline flex items-center"
             >
               <svg
                 stroke="currentColor"
@@ -172,7 +172,7 @@ const Footer = () => {
             </a>
             <a
               href="https://www.instagram.com/railkafe/?igshid=MzNlNGNkZWQ4Mg%3D%3D"
-              className="text-gray-200 text-sm mt-2 no-underline flex items-center"
+              className="text-black text-sm mt-2 no-underline flex items-center"
             >
               <svg
                 stroke="currentColor"
@@ -190,7 +190,7 @@ const Footer = () => {
             </a>
             <a
               href="https://in.pinterest.com/railkafe/"
-              className="text-gray-200 text-sm mt-2 no-underline flex items-center"
+              className="text-black text-sm mt-2 no-underline flex items-center"
             >
               <svg
                 stroke="currentColor"

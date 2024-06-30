@@ -8,7 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        gold:'#FFD700',
+        gold:'#E6B31E',
+        white:'#FCFAF1',
+        black :'#343434',
+        gray:'#cacaca',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
