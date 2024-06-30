@@ -38,12 +38,13 @@ body {
 }
 
 .scroll-container {
-  width: 90%;
-  max-width: 640px; 
-  height: 240px; 
+  width: 100%;
+  max-width: 720px; 
+  height: 320px; 
  
   position: relative;
-  background-color: rgb(rgb(248, 237, 39,0.3), green, blue);
+  background: linear-gradient(60deg, black, #333333);
+
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-top: 20px;
