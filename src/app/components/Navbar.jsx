@@ -3,11 +3,16 @@ import React, { useEffect, useState } from 'react';
 import "@/app/styles/navbar.css";
 
 export default function Navbar() {
-  const [isClient, setIsClient] = useState(false);
+  const [isMobileView, setIsMobileView] = useState(false);
 
   useEffect(() => {
-    // Mark that the component is now mounted on the client side
-    setIsClient(true);
+    const updateView = () => {
+      setIsMobileView(window.innerWidth <= 480);
+    };
+
+    updateView();
+
+    window.addEventListener('resize', updateView);
 
     const handleClick = (e) => {
       let el;
@@ -34,12 +39,17 @@ export default function Navbar() {
     document.addEventListener("click", handleClick);
 
     return () => {
+      window.removeEventListener('resize', updateView);
       document.removeEventListener("click", handleClick);
     };
   }, []);
 
+  if (!isMobileView) {
+    return null;
+  }
+
   return (
-    <nav className={`${isClient && window.innerWidth <= 640 ? "rect " : ""}fixed sm:border-r-black sm:border-r sm:space-y-8 sm:flex-col sm:w-16 sm:h-full sm:py-4 sm:top-0 bg-red-500 sm:shadow-lg z-10`}>
+    <nav className="rect fixed bg-black z-10">
       <p className="nav-link active text-white flex flex-col items-center transform transition-transform duration-100 hover:scale-125">
         <FaHome size={24} />
         <span className="text-xs mt-1">Home</span>
