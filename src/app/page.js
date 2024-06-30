@@ -20,11 +20,11 @@ export default function Home() {
   };
 
   const cards = [
-    { icon: <FaHome />, text: "Enter your PNR or train number" },
-    { icon: <FaMapMarkerAlt />, text: "Select delivery station or restaurent" },
-    { icon: <FaUtensils />, text: "Choose your food" },
-    { icon: <FaInfoCircle />, text: "Enter journey details and place your order" },
-    { icon: <FaUser />, text: "Sit and relax your food will be delivered to your seat" },
+    { icon: <FaHome />, text: "1. Enter your PNR or train number" },
+    { icon: <FaMapMarkerAlt />, text: "2. Select delivery station or restaurent" },
+    { icon: <FaUtensils />, text: "3. Choose your food" },
+    { icon: <FaInfoCircle />, text: "4. Enter journey details and place your order" },
+    { icon: <FaUser />, text: "5. Sit and relax your food will be delivered to your seat" },
   ];
 
   return (
@@ -130,7 +130,7 @@ export default function Home() {
             <img
               src="images/groupIcon.png"
               alt="group icon"
-              className="w-16"
+              className="w-20 h-20"
             />
             <div className="ml-4 p-8 flex-1">
               <p className="text-base md:text-lg text-white">
@@ -147,12 +147,12 @@ export default function Home() {
               className="text-white text-lg md:text-xl ml-auto"
               onClick={() => (window.location.href = "/")}
             >
-              &gt;
+              <img className="h-8 w-8"src="/images/next.png" alt="" />
             </button>
           </div>
         </div>
 
-        <h1 className="text-3xl mt-16 text-black font-bold">LATEST ORDER</h1>
+        <h1 className="text-3xl mt-16 text-black text- font-bold">LATEST ORDER</h1>
         <div className="scroll-container text-balance h-8 mt-8 py-8 w-full max-w-screen-xl overflow-hidden">
           <div className="text-wrap break-words whitespace-normal scroll-content text-white my-8">
             {orders.map((item, index) => (
