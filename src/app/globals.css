@@ -39,11 +39,11 @@ body {
 
 .scroll-container {
   width: 90%;
-  max-width: 640px; /* Adjust the width as needed */
-  height: 240px; /* Adjust the height as needed */
-  overflow: hidden;
+  max-width: 640px; 
+  height: 240px; 
+ 
   position: relative;
-  background-color: white;
+  background-color: rgb(rgb(248, 237, 39,0.3), green, blue);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-top: 20px;
@@ -54,11 +54,12 @@ body {
   flex-direction: column;
   position: absolute;
   animation: scroll 7s linear infinite;
+  
 }
 
 .scroll-item {
   padding: 10px 20px;
-  white-space: nowrap;
   font-size: 1rem;
+  
 }
 

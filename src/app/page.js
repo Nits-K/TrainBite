@@ -5,8 +5,7 @@ import Footer from "./components/Footer";
 import OrderMenu from "./components/OrderMenu";
 import Navbar from "./components/Navbar";
 import orders from "@/app/assets/data/orders.json";
-import { FaTrain, FaSearch } from "react-icons/fa";
-
+import { FaTrain, FaSearch, FaHome, FaInfoCircle,  FaUser, FaMapMarkerAlt,   FaUtensils } from "react-icons/fa";
 
 export default function Home() {
   const [searchType, setSearchType] = useState("PNR");
@@ -19,125 +18,122 @@ export default function Home() {
   const handleExploreClick = () => {
     setShowMoreText(!showMoreText);
   };
- console.log(orders);
-  return (
-    <div className="flex">
-      <Navbar />
-      <div className="flex flex-col items-center bg-red-50 m-0 p-0 w-full min-h-screen font-poppins sm:ml-16">
-        <Header />
-        <img
-          className="w-full h-auto object-fill"
-          src="images/banner2.jpg"
-          alt="banner"
-        />
-        <div className=" w-full flex flex-col items-center">
-          {/* <video
-            autoPlay
-            loop
-            muted
-            className="absolute top-0 left-0 w-full h-full object-cover "
-            src="images/videos/background.mp4"
-          >
-            
-            Your browser does not support the video tag.
-          </video> */}
-            <div className="">          
-            <h1 className="text-gray-700 text-5xl mt-16 font-bold text-center ">
-              Order Food on Train Online
-            </h1>
-            <div className="bg-slate-100 p-1 flex flex-col items-center w-full py-6 rounded-lg max-w-2xl mx-auto shadow-lg mt-8 hover:bg-white transition-colors">
-              <div className="flex bg-red-500 rounded-full justify-around w-full mb-8 p-1 py-1.5">
-                <button
-                  className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
-                    searchType === "PNR"
-                      ? "bg-white text-red-500"
-                      : "bg-red-500 text-white"
-                  } hover:bg-white hover:text-red-500`}
-                  onClick={() => handleButtonClick("PNR")}
-                >
-                  <FaSearch className="h-5 w-5 mr-2" />
-                  Search By PNR
-                </button>
-                <button
-                  className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
-                    searchType === "Train"
-                      ? "bg-white text-red-500"
-                      : "bg-red-500 text-white"
-                  } hover:bg-white hover:text-red-500`}
-                  onClick={() => handleButtonClick("Train")}
-                >
-                  <FaTrain className="h-5 w-5 mr-2" />
-                  Search By Train
-                </button>
-                <button
-                  className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
-                    searchType === "WhatsApp"
-                      ? "bg-white text-red-500"
-                      : "bg-red-500 text-white"
-                  } hover:bg-white hover:text-red-500`}
-                  onClick={() => handleButtonClick("WhatsApp")}
-                >
-                  <img
-                    src="images/whatsapp.png"
-                    alt="WhatsApp"
-                    className="h-5 w-5 mr-1"
-                  />
-                  WhatsApp
-                </button>
-              </div>
-              {searchType !== "WhatsApp" ? (
-                <div className="flex items-center mt-4 w-full px-4">
-                  <div className="relative w-full">
-                    <input
-                      type="text"
-                      placeholder={
-                        searchType === "PNR"
-                          ? "Enter PNR number to Order"
-                          : "Enter Train number to Order"
-                      }
-                      className="p-4 border border-gray-300 rounded-full w-full"
-                    />
-                    <button
-                      type="submit"
-                      className="absolute right-1 top-1/2 transform -translate-y-1/2 px-5 p-3 mr-1 bg-gray-800 text-white rounded-full hover:bg-red-700"
-                    >
-                      Submit
-                    </button>
-                  </div>
-                </div>
-              ) : (
-                <button className="px-4 py-2 bg-white text-red-500 border border-gray-300 rounded-full flex items-center hover:bg-gray-100 mt-4">
-                  <img
-                    src="images/whatsapp.png"
-                    alt="WhatsApp"
-                    className="h-6 w-6 mr-2"
-                  />
-                  980713867
-                </button>
-              )}
-              </div>
-            </div>
-          </div>
-        
 
-        <h3 className="text-gray-700 mt-16 text-3xl font-bold text-center">
+  const cards = [
+    { icon: <FaHome />, text: "Enter your PNR or train number" },
+    { icon: <FaMapMarkerAlt />, text: "Select delivery station or restaurent" },
+    { icon: <FaUtensils />, text: "Choose your food" },
+    { icon: <FaInfoCircle />, text: "Enter journey details and place your order" },
+    { icon: <FaUser />, text: "Sit and relax your food will be delivered to your seat" },
+  ];
+
+  return (
+    <div className="flex font-poppins">
+      <Navbar />
+      <div className="flex flex-col items-center bg-gradient-to-l from-black to-gold m-0 p-0 w-full min-h-screen">
+        <Header />
+        <div className="w-full flex flex-col items-center">
+          <h1 className="text-white text-5xl mt-16 font-bold text-center">
+            Order Food on Train Online
+          </h1>
+          <div className="p-1 flex flex-col items-center w-full py-16 rounded-lg max-w-screen-xl mx-auto shadow-lg mt-8 transition-colors bg-gradient-to-r from-black to-gold">
+            <div className="flex flex-wrap justify-around w-full mb-8 p-1 py-1.5">
+              <button
+                className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+                  searchType === "PNR"
+                    ? "bg-white text-black"
+                    : "bg-black text-gold"
+                } hover:bg-white hover:text-black`}
+                onClick={() => handleButtonClick("PNR")}
+              >
+                <FaSearch className="h-5 w-5 mr-2" />
+                Search By PNR
+              </button>
+              <button
+                className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+                  searchType === "Train"
+                    ? "bg-white text-black"
+                    : "bg-black text-gold"
+                } hover:bg-white hover:text-black`}
+                onClick={() => handleButtonClick("Train")}
+              >
+                <FaTrain className="h-5 w-5 mr-2" />
+                Search By Train
+              </button>
+              <button
+                className={`flex items-center px-2 sm:px-4 py-2 text-xs sm:text-base rounded-full transition-colors ${
+                  searchType === "WhatsApp"
+                    ? "bg-white text-black"
+                    : "bg-black text-gold"
+                } hover:bg-white hover:text-black`}
+                onClick={() => handleButtonClick("WhatsApp")}
+              >
+                <img
+                  src="images/whatsapp.png"
+                  alt="WhatsApp"
+                  className="h-5 w-5 mr-1"
+                />
+                WhatsApp
+              </button>
+            </div>
+            {searchType !== "WhatsApp" ? (
+              <div className="flex items-center mt-4 w-full max-w-lg px-4">
+                <div className="relative w-full">
+                  <input
+                    type="text"
+                    placeholder={
+                      searchType === "PNR"
+                        ? "Enter PNR number to Order"
+                        : "Enter Train number to Order"
+                    }
+                    className="p-4 border border-gray-300 rounded-full w-full"
+                  />
+                  <button
+                    type="submit"
+                    className="absolute right-1 top-1/2 transform -translate-y-1/2 px-5 p-3 mr-1 bg-black text-gold rounded-full hover:bg-gold hover:text-black"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <button className="px-4 py-2 bg-white text-black border border-gray-300 rounded-full flex items-center hover:bg-gray-100 mt-4">
+                <img
+                  src="images/whatsapp.png"
+                  alt="WhatsApp"
+                  className="h-6 w-6 mr-2"
+                />
+                980713867
+              </button>
+            )}
+          </div>
+        </div>
+
+        <h3 className="text-white mt-16 text-3xl font-bold text-center">
           Follow these steps to order food on Train
         </h3>
-        <img
-          src="images/home_page.webp"
-          alt="homepage"
-          className="w-full max-w-screen-lg h-auto object-cover mt-4 rounded-lg md:rounded-xl"
-        />
 
-        <div className="bg-white p-4 md:p-8 shadow-lg rounded-lg mt-16 w-full max-w-screen-sm flex flex-col items-center">
+        <div className="w-full max-w-screen-xl px-4 py-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+          {cards.map((card, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center p-8 bg-gradient-to-r from-black to-gold rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300"
+            >
+              <div className="text-4xl text-white mb-4">{card.icon}</div>
+              <p className="text-lg text-white">{card.text}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="bg-gradient-to-r from-black to-gold p-4 md:p-8 shadow-lg rounded-lg mt-16 w-full max-w-screen-xl flex flex-col items-center">
           <div className="flex items-center mb-4 w-full">
             <img
               src="images/groupIcon.png"
               alt="group icon"
               className="w-16"
             />
-            <div className="ml-4 flex-1">
-              <p className="text-base md:text-lg text-gray-800">
+            <div className="ml-4 p-8 flex-1">
+              <p className="text-base md:text-lg text-white">
                 <strong className="text-lg md:text-xl">
                   Group food ordering in train
                 </strong>
@@ -148,7 +144,7 @@ export default function Home() {
               </p>
             </div>
             <button
-              className="text-gray-800 text-lg md:text-xl ml-auto"
+              className="text-white text-lg md:text-xl ml-auto"
               onClick={() => (window.location.href = "/")}
             >
               &gt;
@@ -156,9 +152,9 @@ export default function Home() {
           </div>
         </div>
 
-        <h1 className="text-3xl mt-16 text-gray-700 font-bold">LATEST ORDER</h1>
-        <div className="scroll-container text-balance h-8 mt-8 py-8 w-full max-w-lg overflow-hidden">
-          <div className="text-wrap break-words whitespace-normal scroll-content text-black my-8">
+        <h1 className="text-3xl mt-16 text-black font-bold">LATEST ORDER</h1>
+        <div className="scroll-container text-balance h-8 mt-8 py-8 w-full max-w-screen-xl overflow-hidden">
+          <div className="text-wrap break-words whitespace-normal scroll-content text-white my-8">
             {orders.map((item, index) => (
               <div
                 key={index}
@@ -173,13 +169,13 @@ export default function Home() {
 
         <div className="flex flex-col items-center mt-8">
           <button
-            className="p-5 my-6 text-white bg-red-500 rounded-full font-semibold hover:bg-red-700"
+            className="p-5 my-6 text-white bg-black rounded-full font-semibold hover:bg-gold hover:text-black"
             onClick={handleExploreClick}
           >
             Explore More &gt;
           </button>
           {showMoreText && (
-            <div className="bg-gray-100 p-4 mt-4 rounded-lg text-center w-full max-w-screen-sm">
+            <div className="bg-gray-100 p-4 mt-4 rounded-lg text-center w-full max-w-screen-xl">
               <OrderMenu />
             </div>
           )}
