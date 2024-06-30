@@ -37,7 +37,7 @@ export default function Home() {
           <h1 className="text-white text-5xl mt-16 font-bold text-center">
             Order Food on Train Online
           </h1>
-          <div className="p-1 flex flex-col items-center w-full py-16 rounded-lg max-w-screen-xl mx-auto shadow-lg mt-8 transition-colors bg-gradient-to-t from-gold to-gold">
+          <div className="p-1  flex flex-col items-center w-full py-16 rounded-lg  max-w-screen-xl shadow-lg mt-8 transition-colors bg-gradient-to-t from-gold to-gold">
             <div className="flex flex-wrap justify-around w-full mb-8 p-1 py-1.5">
               <button
                 className={`flex items-center px-2 sm:px-8 py-4 text-xs sm:text-xl rounded-full transition-colors ${
