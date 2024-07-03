@@ -108,7 +108,7 @@ export default function Home() {
                       ? "Enter PNR number to Order"
                       : "Enter Train number to Order"
                   }
-                  className="ml-4 bg-transparent outline-none border-0 rounded-full w-full"
+                  className="ml-4 bg-transparent outline-none border-0 rounded-full w-full text-black"
                 />
                 <button
                   type="submit"
@@ -122,7 +122,7 @@ export default function Home() {
                 <input
                   type="text"
                   placeholder="Enter Station name to Order"
-                  className="ml-4 bg-transparent outline-none border-0 rounded-full w-full"
+                  className="ml-4 bg-transparent outline-none border-0 rounded-full w-full text-black "
                 />
                 <button
                   type="submit"
