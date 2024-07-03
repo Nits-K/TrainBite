@@ -37,7 +37,7 @@ export default function Home() {
             Order Food on Train Online
           </h1>
           <div className="p-1 flex flex-col items-center w-full py-16 rounded-lg max-w-screen-xl shadow-lg mt-8 transition-colors bg-gradient-to-t from-gold to-gold">
-            <div className="flex flex-wrap justify-around w-full mb-8 p-1 py-1.5">
+            <div className="flex flex-wrap justify-around w-full mb-2 sm:mb-6  ">
               <label className="flex items-center cursor-pointer">
                 <input
                   type="radio"
@@ -48,11 +48,11 @@ export default function Home() {
                   className="hidden"
                 />
                 <div
-                  className={`flex items-center px-2 sm:px-4 py-4 text-xl sm:text-3xl font-bold text-black border-0`}
+                  className={`flex items-center sm:px-2 py-4 text-xl sm:text-4xl font-bold text-black border-0`}
                 >
-                  <span className="mr-2 rounded-full border-4 border-black w-6 h-6 flex items-center justify-center">
+                  <span className="sm:mr-2 mr-1 rounded-full border-4 border-black sm:w-6 sm:h-6 w-5 h-5 flex items-center justify-center">
                     {searchType === "PNR" && (
-                      <span className="w-3 h-3 bg-black rounded-full"></span>
+                      <span className="w-2 h-2 sm:h-3 sm:w-3 bg-black rounded-full"></span>
                     )}
                   </span>
                   PNR
@@ -68,11 +68,11 @@ export default function Home() {
                   className="hidden"
                 />
                 <div
-                  className={`flex items-center px-2 sm:px-8 py-4 text-xl sm:text-3xl font-bold text-black border-0`}
+                  className={`flex items-center sm:px-2 py-4 text-xl sm:text-4xl font-bold text-black border-0`}
                 >
-                  <span className="mr-2 rounded-full border-4 border-black w-6 h-6 flex items-center justify-center">
+                  <span className="sm:mr-2 mr-1 rounded-full border-4 border-black sm:w-6 sm:h-6 w-5 h-5 flex items-center justify-center">
                     {searchType === "Train" && (
-                      <span className="w-3 h-3 bg-black rounded-full"></span>
+                      <span className="w-2 h-2 sm:h-3 sm:w-3 bg-black rounded-full"></span>
                     )}
                   </span>
                   Train Name/No.
@@ -88,11 +88,11 @@ export default function Home() {
                   className="hidden"
                 />
                 <div
-                  className={`flex items-center px-2 sm:px-8 py-4 text-xl sm:text-3xl font-bold text-black border-0`}
+                  className={`flex items-center sm:px-2 py-4 text-xl sm:text-4xl font-bold text-black border-0`}
                 >
-                  <span className="mr-2 rounded-full border-4 border-black w-6 h-6 flex items-center justify-center">
+                  <span className="sm:mr-2 mr-1 rounded-full border-4 border-black sm:w-6 sm:h-6 w-5 h-5 flex items-center justify-center">
                     {searchType === "Station" && (
-                      <span className="w-3 h-3 bg-black rounded-full"></span>
+                      <span className="w-2 h-2 sm:h-3 sm:w-3 bg-black rounded-full"></span>
                     )}
                   </span>
                   Station
