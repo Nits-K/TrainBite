@@ -37,7 +37,7 @@ export default function Home() {
             Order Food on Train Online
           </h1>
           <div className="p-1 flex flex-col items-center w-full py-16 rounded-lg max-w-screen-xl shadow-lg mt-8 transition-colors bg-gradient-to-t from-gold to-gold">
-            <div className="flex flex-wrap justify-around w-full mb-2 sm:mb-6  ">
+            <div className="flex flex-wrap justify-evenly w-full mb-2 sm:mb-6   ">
               <label className="flex items-center cursor-pointer">
                 <input
                   type="radio"
